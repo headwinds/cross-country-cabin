@@ -1,4 +1,3 @@
-import ProgressSteps from './src/ProgressSteps/ProgressSteps';
-import ProgressStep from './src/ProgressSteps/ProgressStep';
+import HelloView from "./src/hello-view/";
 
-export { ProgressSteps, ProgressStep };
+export { HelloView };

@@ -36,6 +36,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.11",
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.6.2",
+    "react-native-web": "^0.14.3"
   }
 }
