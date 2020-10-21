@@ -1,11 +1,11 @@
 {
-  "name": "cross-country-cabin-example",
+  "name": "cross-country-cabin",
   "homepage": "https://headwinds.github.io/cross-country-cabin",
   "version": "0.0.1",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "cross-country": "link:..",
+    "cross-country-cabin": "../cross-cross-cabin-0.0.8.tgz",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

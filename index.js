@@ -1,3 +1,1 @@
-import HelloView from "./src/hello-view/";
-
-export { HelloView };
+export { default as HelloView } from "./src/hello-view/hello";

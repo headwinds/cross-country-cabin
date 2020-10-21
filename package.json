@@ -1,14 +1,16 @@
 {
-  "name": "cross-cross-cabin",
-  "version": "0.0.1",
+  "name": "cross-country-cabin",
+  "version": "0.0.8",
   "description": "A simple React Native Web component that implements a tile-based game",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npx babel index.js --watch --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel index.js --out-dir dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/colbymillerdev/react-native-progress-steps.git"
+    "url": "git+https://github.com/headwinds/cross-country-cabin.git"
   },
   "keywords": [
     "react-native",
@@ -28,15 +30,21 @@
   "author": "Brandon Flowers",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/colbymillerdev/react-native-progress-steps/issues"
+    "url": "https://github.com/headwinds/cross-country-cabin/issues"
   },
-  "homepage": "https://github.com/colbymillerdev/react-native-progress-steps#readme",
+  "homepage": "https://github.com/headwinds/cross-country-cabin#readme",
   "devDependencies": {
     "metro-react-native-babel-preset": "^0.51.1"
   },
   "dependencies": {
-    "lodash": "^4.17.11",
-    "prop-types": "^15.6.2",
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "react": "^17.0.0",
+    "react-native": "^0.63.3",
     "react-native-web": "^0.14.3"
-  }
+  },
+  "files": [
+    "dist"
+  ]
 }
