@@ -5,7 +5,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "cross-country-cabin": "../cross-cross-cabin-0.0.8.tgz",
+    "cross-country-cabin": "../cross-country-cabin-0.0.11.tgz",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

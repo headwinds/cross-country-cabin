@@ -1,12 +1,12 @@
 {
   "name": "cross-country-cabin",
-  "version": "0.0.8",
+  "version": "0.0.11",
   "description": "A simple React Native Web component that implements a tile-based game",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "start": "npx babel index.js --watch --out-dir dist",
+    "start": "npx babel src --watch --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx babel index.js --out-dir dist"
+    "build": "npx babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
