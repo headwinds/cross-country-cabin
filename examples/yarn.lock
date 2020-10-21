@@ -3526,9 +3526,10 @@ create-react-class@^15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.1"
 
-cross-country-cabin@../cross-country-cabin-0.0.11.tgz:
-  version "0.0.11"
-  resolved "../cross-country-cabin-0.0.11.tgz#032f17baaa806f889d98eb498f49a51d82bc05a6"
+cross-country-cabin-craft@0.0.13:
+  version "0.0.13"
+  resolved "https://registry.yarnpkg.com/cross-country-cabin-craft/-/cross-country-cabin-craft-0.0.13.tgz#4825df13509b3cbb82a7ab107c25a966ff92d2c3"
+  integrity sha512-7jPfL/ZowIxBh1BgwHiJ8czvcdFITtxAl1xBJ6O5mFAzo44mY1BiCi16mf2Fe2i8BLmlhgMhrCLSnAexkfQWCQ==
   dependencies:
     "@babel/cli" "^7.12.1"
     "@babel/core" "^7.12.3"
@@ -3536,6 +3537,7 @@ cross-country-cabin@../cross-country-cabin-0.0.11.tgz:
     react "^17.0.0"
     react-native "^0.63.3"
     react-native-web "^0.14.3"
+    react-scripts "^1.1.4"
 
 cross-spawn@5.1.0, cross-spawn@^5.0.1, cross-spawn@^5.1.0:
   version "5.1.0"

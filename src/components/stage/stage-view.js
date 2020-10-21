@@ -1,10 +1,10 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-const HelloView = () => (
+const StageView = () => (
   <View style={{ flexDirection: "row", marginTop: 90 }}>
-    <Text>hello cabin!</Text>
+    <Text>stage</Text>
   </View>
 );
 
-export default HelloView;
+export default StageView;

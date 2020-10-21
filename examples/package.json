@@ -1,16 +1,16 @@
 {
-  "name": "cross-country-cabin",
+  "name": "cross-country-cabin-craft-example",
   "homepage": "https://headwinds.github.io/cross-country-cabin",
   "version": "0.0.1",
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "cross-country-cabin": "../cross-country-cabin-0.0.11.tgz",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-native-web": "^0.14.3",
-    "react-scripts": "^1.1.4"
+    "react-scripts": "^1.1.4",
+    "cross-country-cabin-craft": "0.0.13"
   },
   "scripts": {
     "start": "react-scripts start",

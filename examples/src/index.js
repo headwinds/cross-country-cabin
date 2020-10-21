@@ -1,6 +1,6 @@
 import React from "react";
 import { AppRegistry, StyleSheet, View, Text } from "react-native";
-import { HelloView } from "cross-country-cabin";
+import { HelloView } from "cross-country-cabin-craft";
 
 class Game extends React.Component {
   render() {
